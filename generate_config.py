@@ -9,9 +9,9 @@ def finish():
     print(rects)
     print(borders)
     data = {}
-    data['xY1'] = rects[0]
-    data['xY3'] = rects[2]
-    data['xY4'] = rects[3]
+    data['xY1'] = rects[0] / 200
+    data['xY3'] = rects[2] / 200
+    data['xY4'] = rects[3] / 200
     data['xY2'] = rects[1]
     data['danger1'] = borders[0]
     data['danger2'] = borders[1]
